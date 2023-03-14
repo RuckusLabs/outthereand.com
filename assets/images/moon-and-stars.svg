@@ -1,36 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="stylesheet" href="dist/styles.css">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <h1 class="visuallyhidden" aria-hidden="true" aria-label="Out There And">OutThere&</h1>
-
-  <div class="scene">
-    <?xml version="1.0" encoding="UTF-8"?>
-<svg class="moon" width="59px" height="63px" viewBox="0 0 59 63" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="63px" viewBox="0 0 59 63" version="1.1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="moon-and-stars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(0.000000, 0.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <path
                 d="M21.3602262,17.8364988 C22.9624219,17.8364988 24.523417,18.0206247 26.0248493,18.3697101 C19.6467123,20.1516534 14.9521583,26.2253003 14.9521583,33.4434352 C14.9521583,42.0629082 21.6464676,49.0503716 29.9043167,49.0503716 C35.0286205,49.0503716 39.5508573,46.3597327 42.245039,42.2581311 L42.6769326,41.5616858 C41.9885229,52.9248036 33.1444912,61.9766004 22.1859844,62.4113917 L21.3602262,62.4277457 C9.56329901,62.4277457 -1.13686838e-13,52.445655 -1.13686838e-13,40.1321222 C-1.13686838e-13,28.0984424 9.13354332,18.2914344 20.5594375,17.8518771 L21.3602262,17.8364988 Z M13.8122786,23.7634554 L14.2061538,23.0909215 L14.1489289,23.1198638 C7.97507714,26.0201887 3.65384615,32.5309591 3.65384615,40.1321222 C3.65384615,50.4479864 11.6128481,58.7555253 21.3602262,58.7555253 C26.6878506,58.7555253 31.5027206,56.2657899 34.7619007,52.3046142 L35.0148077,51.9802788 L34.9054713,52.0165951 C33.5709298,52.4016523 32.1824769,52.6352231 30.7609992,52.702384 L29.9043167,52.7225919 C19.5969185,52.7225919 11.2983122,44.0605768 11.2983122,33.4434352 C11.2983122,29.945026 12.2061449,26.6283755 13.8122786,23.7634554 Z"
@@ -47,10 +19,3 @@
         </g>
     </g>
 </svg>
-    <img class="ufo" src="assets/images/ufo.svg" />
-    <img class="hill" src="assets/images/hill.svg" />
-  </div>
-
-</body>
-
-</html>
