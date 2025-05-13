@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+  }
+
+  .logo {
+    font-weight: 700;
+    letter-spacing: -0.06em;
+    font-size: 2em;
+  }
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}

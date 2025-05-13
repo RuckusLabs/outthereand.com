@@ -1,0 +1,16 @@
+.highlight {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  line-height: 1;
+
+  @include mobile {
+    font-size: 48px;
+  }
+}
+
+.contact {
+  section + section {
+    margin-top: 0;
+  }
+}
