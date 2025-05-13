@@ -1,4 +1,9 @@
 {
+  "name": "outthereand.com",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "https://www.outthereand.com",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
     "sass": "^1.88.0",
@@ -6,8 +11,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && cp ./dist/index.html ./dist/404.html",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "vite build && cp ./dist/index.html ./dist/404.html && gh-pages -d dist --cname outthereand.com"
   },
   "dependencies": {
     "gsap": "^3.13.0",
