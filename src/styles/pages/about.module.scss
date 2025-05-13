@@ -1,0 +1,43 @@
+.about {
+  p {
+    font-size: 24px;
+  }
+}
+
+.intro {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  h3 {
+    font-size: 56px;
+  }
+}
+
+.parallaxWrapper {
+  width: 230px;
+  height: 350px;
+  border-radius: 200px;
+  overflow: hidden;
+  position: relative;
+  cursor: auto;
+
+  .parallaxImage {
+    position: absolute;
+    top: -20%;
+    left: -12%;
+    width: 140%;
+    height: 140%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+  }
+}
+
+.button {
+  width: fit-content;
+  margin-top: 50px;
+}

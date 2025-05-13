@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+
+  a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+  }
+
+  .logo {
+    font-weight: 700;
+    letter-spacing: -0.06em;
+    font-size: 2em;
+
+    @include mobile {
+      font-size: 1.25em;
+    }
+  }
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
