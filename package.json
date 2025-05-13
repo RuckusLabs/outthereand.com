@@ -17,6 +17,7 @@
     "deploy": "vite build && cp ./dist/index.html ./dist/404.html && gh-pages -d dist --cname outthereand.com"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-calendly": "^4.3.1",
