@@ -1,5 +1,6 @@
 import React from 'react';
 import GetInTouch from "../components/GetInTouch";
+import ProfileImage from '../assets/images/camille-gan.jpg';
 
 import styles from '../styles/pages/about.module.scss';
 
@@ -34,8 +35,10 @@ export default function About() {
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
             >
-              <div className={styles.parallaxImage} style={{ backgroundImage: "url('/src/assets/images/camille-gan.jpg')" }} />
-
+              <div 
+                className={styles.parallaxImage} 
+                style={{ backgroundImage: `url(${ProfileImage})` }} 
+              />
             </div>
             <h3>Camille<br /> Gan</h3>
           </div>
