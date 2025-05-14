@@ -28,6 +28,10 @@
   font-size: 36px;
   padding: 0.5em 1em;
   border-radius: 50px;
+
+  @include mobile {
+    font-size: 24px;
+  }
 }
 
 .button--mail {
