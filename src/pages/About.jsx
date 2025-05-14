@@ -11,8 +11,8 @@ export default function About() {
 
   const handleMouseMove = (e) => {
     const rect = wrapperRef.current.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 30; // range: -15 to +15
-    const y = ((e.clientY - rect.top) / rect.height - 0.5) * 30;
+    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 5; // range: -15 to +15
+    const y = ((e.clientY - rect.top) / rect.height - 0.5) * 5;
 
     const image = wrapperRef.current.querySelector(`.${styles.parallaxImage}`);
     image.style.transform = `translate(${x}px, ${y}px)`;
@@ -40,17 +40,17 @@ export default function About() {
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
             >
-              <div 
-                className={styles.parallaxImage} 
-                style={{ backgroundImage: `url(${ProfileImage})` }} 
+              <div
+                className={styles.parallaxImage}
+                style={{ backgroundImage: `url(${ProfileImage})` }}
               />
             </div>
-            <h3>Camille<br /> Gan</h3>
+            <h3>Camille Gan</h3>
           </div>
-          <p>Camille Gan is a seasoned professional with over a decade of experience in the boutique fitness industry and a proven track record of helping small businesses thrive. She's dedicated her career to empowering business owners by transforming their operations, building strong teams, and fostering a culture of success.</p>
-          <p>Her expertise lies in recruiting the right talent to align with a business's goals and culture, ensuring a perfect fit for long-term growth. Camille is also passionate about training staff in sales and customer service, helping businesses develop a sales-driven culture that enhances customer retention and profitability. Beyond staffing, she specializes in creating streamlined operational handbooks, enabling businesses to run efficiently and effectively.</p>
-          <p>Camille's approach is rooted in understanding the unique needs of each business she works with, whether it's a boutique fitness studio or another small business. Her ability to identify opportunities for growth, implement strategic processes, and build cohesive teams has made her a trusted partner for businesses looking to scale, regroup, or prepare for an exit.</p>
-          <p>With a deep commitment to helping businesses succeed, Camille's not just a consultant but a catalyst for transformation, bringing clarity, structure, and growth to every business she touches.</p>
+          <p>Meet Camille Gan, an enthusiastic professional with over 10 years of experience in the boutique fitness industry. She enjoys working with small businesses to enhance their operations and build strong, supportive teams.</p>
+          <p>Camille focuses on finding the right talent that fits each business's unique culture and goals, helping them grow in a sustainable way. She also loves training staff in sales and customer service, nurturing a positive environment that encourages customer loyalty.</p>
+          <p>Beyond staffing, Camille creates clear operational handbooks to help businesses run smoothly. She takes the time to understand the specific needs of each business, whether it's a boutique fitness studio or another small venture, and works collaboratively to identify opportunities for improvement.</p>
+          <p>With a genuine commitment to helping others succeed, Camille is a supportive partner in the journey of growth and transformation for every business she works with.</p>
           <GetInTouch className={`button--large ${styles.button}`} />
         </div>
       </section>
