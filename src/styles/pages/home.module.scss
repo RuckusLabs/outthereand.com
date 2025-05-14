@@ -13,13 +13,17 @@ section {
   +section {
     margin-top: 100px;
   }
-
-  h2 {
-    color: var(--fill-black);
-  }
 }
 
 .services {
+  h2 {
+    color: var(--fill-white);
+
+    @include mobile {
+      padding-inline-start: 30px;
+    }
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -42,6 +46,7 @@ section {
     transition: background-color 0.2s ease-in-out;
 
     @include mobile {
+      padding: 15px 30px;
       grid-template-rows: 50px auto auto;
     }
 
@@ -53,13 +58,15 @@ section {
       align-self: end;
     }
 
-    h3, p {
+    h3,
+    p {
       margin: 10px 0 0 0;
     }
 
     h3 {
       margin-top: 25px;
     }
+
     +li {
       @include mobile {
         border-top: 1px solid var(--fill-white);
