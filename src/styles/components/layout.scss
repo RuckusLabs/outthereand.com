@@ -7,6 +7,12 @@ body {
   letter-spacing: -0.02em;
 }
 
+section {
+  h2 {
+    color: var(--fill-black);
+  }
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
