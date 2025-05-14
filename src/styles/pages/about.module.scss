@@ -11,27 +11,35 @@
   align-items: center;
   gap: 25px;
 
+  @include mobile {
+    flex-direction: column;
+  }
+
   h3 {
     font-size: 56px;
+
+    @include mobile {
+      margin: 25px 0;
+    }
   }
 }
 
 .parallaxWrapper {
-  width: 230px;
-  height: 350px;
-  border-radius: 200px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   cursor: auto;
 
   .parallaxImage {
-    position: absolute;
-    top: -20%;
-    left: -12%;
-    width: 140%;
-    height: 140%;
+    width: 110%;
+    height: 110%;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     transition: transform 0.1s ease-out;
     will-change: transform;
   }
