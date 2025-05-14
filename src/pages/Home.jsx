@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import RecruitingIcon from '../assets/icons/icon--recruiting.svg';
 import TrainingIcon from '../assets/icons/icon--training.svg';
 import ProcessIcon from '../assets/icons/icon--process.svg';
@@ -9,6 +10,11 @@ export default function Home() {
   
   return (
     <>
+      <Helmet>
+        <title>Boutique Business Empowerment | OutThere&</title>
+        <meta name="description" content="OutThere& empowers bouqitue businsses through sales strategy, recruitment, and culture development." />
+      </Helmet>
+
       <section className={styles.hero}>
         <h1>Empowering <span className="highlight">boutique businesses</span> through membership-based sales coaching, recruitment, and culture development.</h1>
       </section>

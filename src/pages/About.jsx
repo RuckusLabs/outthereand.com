@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import GetInTouch from "../components/GetInTouch";
 import ProfileImage from '../assets/images/camille-gan.jpg';
 
@@ -24,6 +25,10 @@ export default function About() {
 
   return (
     <>
+      <Helmet>
+        <title>About the Founder, Camille Gan | OutThere&</title>
+        <meta name="description" content="About the founder of OutThere&, Camille Gan." />
+      </Helmet>
       <section className={styles.about}>
         <h2 className="text-align-center">About the Founder</h2>
 
