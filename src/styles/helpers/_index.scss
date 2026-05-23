@@ -1,3 +1,3 @@
-@import 'colors.scss';
-@import 'responsive.scss';
-@import 'typography.scss';
+@forward 'colors.scss';
+@forward 'responsive.scss';
+@forward 'typography.scss';
