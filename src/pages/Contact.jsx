@@ -18,7 +18,7 @@ export default function Contact() {
         </section>
         <section>
           <InlineWidget
-            url="https://calendly.com/outthereand/30min"
+            url="https://calendly.com/camillesgan/30min"
             utm={{
               utmMedium: 'Website',
               utmSource: 'outthereand.com',
