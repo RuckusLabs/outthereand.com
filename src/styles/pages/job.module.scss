@@ -1,0 +1,52 @@
+.job {
+  p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    margin-top: 50px;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 1.5em;
+    font-size: 20px;
+
+    li {
+      margin-bottom: 8px;
+      font-size: 24px;
+    }
+  }
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+
+  span {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.6;
+
+    & + span::before {
+      content: '·';
+      margin-right: 16px;
+    }
+  }
+}
+
+.applyButton {
+  display: inline-block;
+  margin-top: 50px;
+}
