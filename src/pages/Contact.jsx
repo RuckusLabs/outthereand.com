@@ -34,6 +34,7 @@ export default function Contact() {
               marginBottom: '0'
             }}
           />
+          <p className={styles.link}>Or email at <a href="mailto:camille@outthereand.com">camille@outthereand.com</a></p>
         </section>
       </div>
     </>

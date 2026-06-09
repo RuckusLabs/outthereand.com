@@ -13,6 +13,10 @@ section {
   +section {
     margin-top: 100px;
   }
+
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .services {
@@ -49,11 +53,7 @@ section {
       padding: 15px 30px;
       grid-template-rows: 50px auto auto;
     }
-
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-
+    
     img {
       align-self: end;
     }
@@ -74,9 +74,45 @@ section {
     }
   }
 
+  .link {
+    text-align: center;
+
+    a {
+      color: white;
+    }
+  }
+
   .button {
     margin: 0 auto;
     margin-top: 50px;
     width: fit-content;
+  }
+}
+
+.clients {
+  h2 {
+    color: white;
+  }
+
+  .clientGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-items: center;
+
+    img, svg {
+      max-width: 200px;
+
+      @include mobile {
+        max-width: 80%;
+      }
+    }
+
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
   }
 }
